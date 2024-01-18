@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Instrument Serif', serif;
+}
+#main{
+    margin: 1em;
+    background-color: lightgrey;
+    border-radius: 15px;
+}
+#title, #img-div, #main > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#title{
+    padding: 0.5em 0;
+}
+#img-section{
+    background-color: white;
+    margin: 1em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+#image{
+    width: 800px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+#tribute-info{
+    padding-top: 0.5em;
+    text-align: justify;
+    margin: auto 20px;
+}
+#content-section{
+    margin: auto 3em;
+}
+#footer-section{
+    margin: 1em auto;
+    padding-bottom: 1em;
+}
